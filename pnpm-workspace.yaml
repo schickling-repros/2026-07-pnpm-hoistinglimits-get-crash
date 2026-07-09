@@ -1,0 +1,8 @@
+packages:
+  - packages/*
+
+hoistPattern: ['*']
+publicHoistPattern: ['*']
+hoistingLimits: workspaces
+nodeLinker: hoisted
+enableGlobalVirtualStore: false
