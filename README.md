@@ -41,4 +41,5 @@ pnpm install --config.node-linker=isolated
 
 ## Related Issue
 
-https://github.com/pnpm/pnpm/issues/12867
+- Upstream: https://github.com/pnpm/pnpm/issues/12867
+- effect-utils tracking: https://github.com/overengineeringstudio/effect-utils/issues/906
