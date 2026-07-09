@@ -41,4 +41,4 @@ pnpm install --config.node-linker=isolated
 
 ## Related Issue
 
-To be filled after filing.
+https://github.com/pnpm/pnpm/issues/12867
