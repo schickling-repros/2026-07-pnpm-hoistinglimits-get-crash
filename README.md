@@ -2,6 +2,8 @@
 
 pnpm 11.3.0 crashes during install when the hoisted linker is used with `hoistingLimits: workspaces` in `pnpm-workspace.yaml`.
 
+This was verified as fixed/not reproducible with pnpm 11.8.0 and 11.10.0 when the project is not pinned to pnpm 11.3.0 via `packageManager`.
+
 ## Reproduction
 
 ```bash
@@ -35,7 +37,8 @@ pnpm install --config.node-linker=isolated
 
 ## Versions
 
-- pnpm: 11.3.0
+- pnpm: 11.3.0 reproduces
+- pnpm: 11.8.0 and 11.10.0 do not reproduce
 - Node.js: 24.15.0
 - OS: Linux x64
 
